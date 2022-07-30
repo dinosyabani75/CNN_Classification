@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom4"
+    tools:context=".UploadPredict"
+    android:orientation="vertical"
+    android:gravity="top">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/back_button"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="10dp"
+      android:src="@drawable/back_ios_logo"/>
+
+  <ImageView
+      android:id="@+id/action_image"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="50dp"
+      android:src="@drawable/upload_2"
+      tools:ignore="ContentDescription" />
+
+  <Button
+      android:id="@+id/select_picture"
+      android:layout_width="180dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/custom1"
+      android:fontFamily="@font/font_rockford_sans"
+      android:gravity="center"
+      android:text="@string/upload_gambar"
+      android:textColor="@color/white"
+      android:textStyle="bold|normal" />
+
+  <Button
+      android:id="@+id/predict_but"
+      android:layout_width="180dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/custom3"
+      android:fontFamily="@font/font_rockford_sans"
+      android:gravity="center"
+      android:text="@string/proses"
+      android:textColor="@color/white"
+      android:textStyle="bold|normal" />
+  <View
+      android:layout_width="400dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_height="5dp"
+      android:layout_gravity="center"
+      android:background="@color/black" />
+
+
+  <TextView
+      android:id="@+id/result_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:backgroundTint="@color/custom6"
+      android:ems="10"
+      android:fontFamily="@font/font_rockford_sans"
+      android:text="@string/result"
+      android:importantForAutofill="no"
+      android:inputType="text"
+      android:minHeight="48dp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      tools:ignore="TextViewEdits" />
+
+  <ImageButton
+      android:id="@+id/voice_result"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:backgroundTint="@color/custom3"
+      android:contentDescription="TODO"
+      android:src="@drawable/ic_baseline_record_voice_over_24"
+      android:visibility="invisible"
+      tools:ignore="ContentDescription,HardcodedText" />
+
+  <View
+      android:layout_width="400dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_height="5dp"
+      android:layout_gravity="center"
+      android:background="@color/black" />
+
+  <TextView
+      android:id="@+id/confidences_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="10dp"
+      android:fontFamily="@font/font_rockford_sans"
+      android:importantForAutofill="no"
+      android:inputType="textMultiLine"
+      android:digits=".,0123456789"
+      android:maxLines="10"
+      android:minLines="5"
+      android:scrollbars="vertical"
+      android:text="@string/predictions_percentage"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      tools:ignore="TextViewEdits" />
+
+  <ImageButton
+      android:id="@+id/voice_predict"
+      android:layout_width="50dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="end"
+      android:backgroundTint="@color/custom3"
+      android:contentDescription="TODO"
+      android:src="@drawable/ic_baseline_record_voice_over_24"
+      android:visibility="invisible"
+      tools:ignore="ContentDescription,HardcodedText" />
+
+  <View
+      android:layout_width="400dp"
+      android:layout_marginBottom="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_height="5dp"
+      android:layout_gravity="center"
+      android:background="@color/black" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="150dp"
+      android:layout_marginBottom="10dp"
+      android:fontFamily="@font/font_rockford_sans"
+      android:textSize="13sp"
+      android:gravity="center"
+      android:textColor="@color/black"
+      android:textStyle="bold|normal"
+      android:text="POWERED BY: INFORMATIKA IST AKPRIND YOGYAKARTA"
+      tools:ignore="HardcodedText" />
+ </LinearLayout>
+
+</ScrollView>

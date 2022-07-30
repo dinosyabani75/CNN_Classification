@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DRS 181057009</string>
+    <string name="klasifikasi_buah_segar_dan_busuk">Fresh and Rotten Fruit Classification</string>
+    <string name="dibuat_oleh_informatika_ist_akprind_yogyakarta">Powered By: INFORMATIKA IST AKPRIND YOGYAKARTA</string>
+    <string name="upload_gambar">Choose Image</string>
+    <string name="proses">Process</string>
+    <string name="hasil">Result</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="real_time_classification">Classification Using Camera</string>
+    <string name="start">Start</string>
+    <string name="classifaction_from_storage">Classifaction Using Storage</string>
+    <string name="about_us">About Us</string>
+    <string name="about_text">This App is made by Dino Rahman Syabani 181057009.</string>
+    <string name="result">Result</string>
+    <string name="predictions_percentage">Predictions Percentage</string>
+    <string name="camera">Camera</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DRS 181057009</string>
+    <string name="klasifikasi_buah_segar_dan_busuk">KLASIFIKASI BUAH SEGAR DAN BUSUK</string>
+    <string name="dibuat_oleh_informatika_ist_akprind_yogyakarta">Dipersembahkan Oleh: INFORMATIKA IST AKPRIND YOGYAKARTA</string>
+    <string name="upload_gambar">Pilih Gambar</string>
+    <string name="proses">Proses</string>
+    <string name="hasil">Hasil</string>
+    <string name="dashboard">BERANDA</string>
+    <string name="real_time_classification">Klasifikasi Menggunakan Kamera</string>
+    <string name="start">Mulai</string>
+    <string name="classifaction_from_storage">Klasifikasi Menggunakan Penyimpanan</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="about_text">Aplikasi ini dibuat oleh Dino Rahman Syabani 181057009.</string>
+    <string name="result">Hasil</string>
+    <string name="predictions_percentage">Persentase Prediksi</string>
+    <string name="camera">Kamera</string>
+</resources>
